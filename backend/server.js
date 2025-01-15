@@ -8,6 +8,9 @@ app.use(express.json());
 let contestants = [
   { id: 1, name: 'Cats', votes: 0 },
   { id: 2, name: 'Dogs', votes: 0 },
+  { id: 3, name: 'tiger',votes: 0},
+  { id: 4, name: 'lion',votes: 0}
+
 ];
 
 // Get all contestants
